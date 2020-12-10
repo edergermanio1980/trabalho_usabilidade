@@ -1,0 +1,8 @@
+INSERT
+curl -X POST  -H 'Content-Type: application/x-www-form-urlencoded' -d 'nome=eder+germanio&email=eder@vitalsoft.com.br&senha=1234' http://localhost:8000/api/usuario
+
+LOGIN
+curl -X POST  -H 'Content-Type: application/x-www-form-urlencoded' -d 'email=eder@vitalsoft.com.br&senha=1234' http://localhost:8000/api/login
+
+CONSULTA
+curl http://localhost:8000/api/usuario
